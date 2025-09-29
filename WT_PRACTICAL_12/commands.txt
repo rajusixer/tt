@@ -1,0 +1,4 @@
+npm init -y
+npm install express cors
+node Server2.js
+node Server3.js

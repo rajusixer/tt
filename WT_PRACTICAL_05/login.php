@@ -43,7 +43,7 @@ mysqli_error($conn);
 if (isset($_POST['changepass'])) { 
 $user = $_POST['username']; 
  $pass = $_POST['password']; 
- $newpass = 'new_' . $pass; 
+ $newpass = $pass; 
  $sql = "UPDATE users SET password='$newpass' WHERE 
 username='$user'"; if (mysqli_query($conn, $sql)) { echo 
 "<br>Password updated successfully! New password: $newpass"; 

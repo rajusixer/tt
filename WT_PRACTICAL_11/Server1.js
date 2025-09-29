@@ -1,4 +1,4 @@
 function sayHello(name) {
-console.log("Hello," + name);
+console.log("Hello, " + name);
 }
-sayHello("Chaudhary Mohammad Saif");
+sayHello("Admin");
