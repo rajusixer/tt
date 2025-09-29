@@ -2,3 +2,9 @@ composer create-project laravel/laravel Practical_08_Laravel_BMI_Project
 cd Practical_08_Laravel_BMI_Project
 php artisan make:controller BMIController
 php artisan serve
+
+# Setup after cloning from GitHub:
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan serve

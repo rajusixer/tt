@@ -1,0 +1,14 @@
+composer create-project laravel/laravel Practical_10_Laravel_CRUD_Project
+cd Practical_10_Laravel_CRUD_Project
+php artisan make:controller StudentController
+php artisan make:model Student
+php artisan make:migration create_students_table
+php artisan migrate
+php artisan serve
+
+# Setup after cloning from GitHub:
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve

@@ -6,7 +6,6 @@
 <title>Login</title>
 </head>
 <body>
-<h3>Saif TCS2526010</h3>
 <h2>Login</h2>
 <form action="/login" method="POST">
 @csrf

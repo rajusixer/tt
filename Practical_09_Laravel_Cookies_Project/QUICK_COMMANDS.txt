@@ -1,0 +1,9 @@
+composer create-project laravel/laravel Practical_09_Laravel_Cookies_Project
+cd Practical_09_Laravel_Cookies_Project
+php artisan serve
+
+# Setup after cloning from GitHub:
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan serve
