@@ -1,5 +1,5 @@
-composer create-project laravel/laravel Practical_07_Laravel_Project
-cd Practical_07_Laravel_Project
+composer create-project laravel/laravel Laravel_Basics_Form
+cd Laravel_Basics_Form
 php artisan make:controller FormController
 php artisan serve
 

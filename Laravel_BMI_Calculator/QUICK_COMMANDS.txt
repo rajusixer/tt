@@ -1,5 +1,6 @@
-composer create-project laravel/laravel Practical_09_Laravel_Cookies_Project
-cd Practical_09_Laravel_Cookies_Project
+composer create-project laravel/laravel Laravel_BMI_Calculator
+cd Laravel_BMI_Calculator
+php artisan make:controller BMIController
 php artisan serve
 
 # Setup after cloning from GitHub:

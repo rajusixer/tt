@@ -1,5 +1,5 @@
-composer create-project laravel/laravel Practical_10_Laravel_CRUD_Project
-cd Practical_10_Laravel_CRUD_Project
+composer create-project laravel/laravel Laravel_CRUD_Student
+cd Laravel_CRUD_Student
 php artisan make:controller StudentController
 php artisan make:model Student
 php artisan make:migration create_students_table
